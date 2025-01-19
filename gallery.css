@@ -18,7 +18,11 @@ a:hover {
 }
 
 .gallery-container {
-  overflow: auto !important;
+  overflow: auto !important; /* Enable scrolling */
+  -webkit-overflow-scrolling: touch !important; /* Smooth scrolling for iOS */
+ 
+    position: relative !important;
+
 }
 
 .section{
