@@ -243,7 +243,7 @@ ul li:nth-child(6) {
 } */
 
 #afterGalleryContainer{
-  width: 90%;
+  width: 65%;
   margin: 0px auto;
 }
 
@@ -278,4 +278,12 @@ background-image: url('images/m-roadmap/image4.png') !important;
  ul li:nth-child(5) {
 background-image: url('images/m-roadmap/image5.png') !important;
  }
+}
+
+
+@media (max-width: 490px) {
+  #afterGalleryContainer{
+    width: 85%;
+    margin: 0px auto;
+  }
 }
