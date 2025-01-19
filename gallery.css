@@ -17,6 +17,10 @@ a:hover {
  text-decoration: none;
 }
 
+.gallery-container {
+  overflow: auto !important;
+}
+
 .section{
  position: relative;
  width: 100%;
