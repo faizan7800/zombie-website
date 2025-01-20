@@ -108,6 +108,10 @@ a:hover {
           height: 100%;
 }
 
+.labelSection{
+  margin-top: 70px;
+}
+
 .slider-height-padding {
  padding-top: 440px;
 }
